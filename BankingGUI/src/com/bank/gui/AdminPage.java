@@ -88,7 +88,7 @@ public class AdminPage extends JFrame implements MouseListener {
 	private JPanel pnlRequests;
 	private JPanel pnlTransactions;
 	private JPanel pnlSearchUser;
-	private JComboBox comboBox;
+	private JComboBox comboBox; 
 	private JButton btsearch;
 	private JButton btnCreateUser;
 	private JButton btnShowUser;

@@ -193,10 +193,7 @@ public class AdminPage extends JFrame implements MouseListener {
 		
 		btnBankInfo = new JButton(" BANK INFO");
 		btnBankInfo.setComponentOrientation(ComponentOrientation.RIGHT_TO_LEFT);
-		btnBankInfo.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent arg0) {
-			}
-		});
+		
 		ic=new ImageIcon("src//mobile-banking.png");
 		img=ic.getImage();
 		img=img.getScaledInstance(50, 50, Image.SCALE_SMOOTH);
